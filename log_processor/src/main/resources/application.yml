@@ -1,0 +1,15 @@
+spring:
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
+#      group-id: steffentest.log.g
+
+kafka:
+  topic:
+    broker: steffentest.broker.t
+    notifyconfig: steffentest.notifyconfig.t
+    log: steffentest.log.t
+    notification: steffentest.notification.t
+  streams-config:
+    bootstrap-servers: 10.137.0.132:9092,10.137.0.146:9092,10.137.0.147:9092
+    zookeeper-connect: 10.137.0.132:2182,10.137.0.146:2182,10.137.0.147:2182
