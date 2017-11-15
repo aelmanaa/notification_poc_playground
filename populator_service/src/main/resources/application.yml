@@ -1,0 +1,19 @@
+kafka:
+  topic:
+    broker: steffentest.broker.t
+    notifyconfig: steffentest.notifyconfig.t
+    log: steffentest.log.t
+  bootstrap-servers: 10.137.0.132:9092,10.137.0.146:9092,10.137.0.147:9092
+
+spring:
+  datasource:
+    url: jdbc:postgresql://10.137.91.5/test_copy_db
+    username: postgres
+    password:
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 9090
