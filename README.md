@@ -1,7 +1,8 @@
 # PTRC - Notification playground
 
 ## Intro
-This project is for building a `proof of concept` for the notification system approach for PTRC.
+This project is for building a `proof of concept` for the notification system approach for PTRC. (basic concept comes from [this solution](https://www.confluent.io/blog/real-time-financial-alerts-rabobank-apache-kafkas-streams-api/)).
+
 We decided to use Java to implement any kind of Producer, Consumer and Streaming application. There are a lot of wrappers for Kafka but we decided to use Java since we expect all the features to be available in the Java version (since its implemented in Java).
 Kafka ships with some command line tools to write/listen to Kafka topics (`<kafka_home>/bin/`). We have some convenient scripts, which cover the most use cases, in a different repository:
 https://gitlab.jp.sbibits.com/ssd-fpga/ptrc-kafka-scripts
