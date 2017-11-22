@@ -50,3 +50,4 @@ and then trigger any kind of population on the topics via the REST API using the
   - `curl -v localhost:9090/broker/populate` (populate all broker info from the DB)
   - `curl -v localhost:9090/notification/populate` (same as before just for notification settings)
   - `curl -v localhost:9090/log/generate` (generates one message for a random, existing broker and put it on the log topic)
+# notification_poc_playground
